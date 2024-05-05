@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".fragments.HomeFragment">
 
-    <!-- Title TextView -->
+
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
@@ -19,9 +19,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp" />
 
-    <!-- Logout Button -->
-
-    <!-- Add Task Button -->
 
     <ImageButton
         android:id="@+id/logoutBtn"
@@ -33,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addTaskBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +40,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp" />
 
-    <!-- RecyclerView -->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mainRecyclerView"
         android:layout_width="0dp"
